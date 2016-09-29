@@ -1,4 +1,4 @@
-package team.brick.shootem.entities;
+package team.brick.shootem.game.entities.creatures;
 
 import java.awt.Graphics;
 

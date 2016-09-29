@@ -3,7 +3,7 @@ package team.brick.shootem.game;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 
-import team.brick.shootem.display.*;
+import team.brick.shootem.game.display.*;
 
 /**
  *	The Game class runs the game. It initializes the

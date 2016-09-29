@@ -1,4 +1,4 @@
-package team.brick.shootem.display;
+package team.brick.shootem.game.display;
 
 import java.awt.Canvas;
 import java.awt.Dimension;

@@ -1,6 +1,7 @@
-package team.brick.shootem.entities;
+package team.brick.shootem.game.entities.creatures;
 
 import team.brick.shootem.game.Handler;
+import team.brick.shootem.game.entities.Entity;
 
 /**
  *	Creatures are entities which move and have health.

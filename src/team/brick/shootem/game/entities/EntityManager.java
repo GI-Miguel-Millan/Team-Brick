@@ -1,10 +1,11 @@
-package team.brick.shootem.entities;
+package team.brick.shootem.game.entities;
 
 import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.Comparator;
 
 import team.brick.shootem.game.*;
+import team.brick.shootem.game.entities.creatures.Player;
 
 /**
  *	EntityManager keeps track of and contains all entities.
