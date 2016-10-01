@@ -29,56 +29,82 @@ public abstract class Creature extends Entity {
 		yMove = 0;
 	}
 	
+	/**
+	 *	Calls the Creatures Move methods.
+	 */
 	public void move(){
-		if(!checkEntityCollisions(xMove, 0f))
 			moveX();
-		if(!checkEntityCollisions(0f, yMove))
 			moveY();
 	}
 	
+	/**
+	 * Moves the Creature in the x direction.
+	 */
 	public void moveX(){
-		
+				x += xMove;
 	}
 	
+	/**
+	 * Moves the Creature in the y direction.
+	 */
 	public void moveY(){
-		
-	}
-	
-	protected boolean collisionWithTile(int x, int y){
-		//return handler.getWorld().getTile(x, y).isSolid();
-		return false;
+				y += yMove;
 	}
 	
 	//GETTERS SETTERS
 
+	/**
+	 * @return xMove 
+	 */
 	public float getxMove() {
 		return xMove;
 	}
 
+	/**
+	 * @param xMove how far the creature will move in the x-direction
+	 */
 	public void setxMove(float xMove) {
 		this.xMove = xMove;
 	}
 
+	/**
+	 * @return yMove
+	 */
 	public float getyMove() {
 		return yMove;
 	}
 
+	/**
+	 * @param yMove how far the Creature will move in the y-direction
+	 */
 	public void setyMove(float yMove) {
 		this.yMove = yMove;
 	}
 
+	/**
+	 * @return health the current health of the Creature
+	 */
 	public int getHealth() {
 		return health;
 	}
 
+	/**
+	 * @param health the new health of the Creature
+	 */
 	public void setHealth(int health) {
 		this.health = health;
 	}
 
+	/**
+	 * @return speed the current speed of the Creature
+	 */
 	public float getSpeed() {
 		return speed;
 	}
 
+	/**
+	 * @param speed the new speed of the Creature
+	 */
 	public void setSpeed(float speed) {
 		this.speed = speed;
 	}
